@@ -27,7 +27,7 @@ class ArticleFactory extends Factory
             'image' => '',
             'content' => $this->faker->text,
             'status' => random_int(0, 1),
-            'sort_order' => random_int(0, 30)
+            'sort_order' => random_int(1, 30)
 
         ];
 
